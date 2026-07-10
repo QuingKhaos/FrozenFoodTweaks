@@ -1,12 +1,19 @@
 {
-  "name": "###NAME###",
-  "title": "###TITLE###",
-  "description": "###DESCRIPTION###",
+  "name": "FrozenFoodTweaks",
+  "title": "Frozen Food Tweaks",
+  "description": "Opinionated tweaks to Frozen Food.",
   "author": "QuingKhaos",
   "homepage": "",
   "version": "1.0.0",
   "factorio_version": "2.0",
   "dependencies": [
-    "base >= 2.0.0"
-  ]
+    "base >= 2.0.77",
+
+    "khaoslib >= 1.6.0",
+
+    "FrozenFood >= 1.2.2",
+    "? bioprocessing-tab >= 1.5.0",
+    "? planet-muluna >= 2.2.7"
+  ],
+  "spoiling_required": true
 }
