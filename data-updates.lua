@@ -1,3 +1,4 @@
+local khaoslib_item = require("__khaoslib__.item")
 local khaoslib_technology = require("__khaoslib__.technology")
 
 -- Add subgroup to bioprocessing tab if installed
@@ -11,4 +12,19 @@ if mods["planet-muluna"] then
     :add_prerequisite("interstellar-science-pack")
     :add_science_pack({"interstellar-science-pack", 1})
     :commit()
+end
+
+-- Set proper import location
+local import_food = {
+  ["s6x-frozen-raw-fish"] = "nauvis",
+  ["s6x-frozen-biter-egg"] = "nauvis",
+  ["s6x-frozen-sulfuric-bacteria"] = "vulcanus",
+}
+
+for item, planet in pairs(import_food) do
+  if khaoslib_item.exists(item) then
+    khaoslib_item:load(item)
+      :set {default_import_location = planet}
+      :commit()
+  end
 end
