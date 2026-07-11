@@ -1,5 +1,5 @@
-local khaoslib_item = require("__khaoslib__.item")
-local khaoslib_technology = require("__khaoslib__.technology")
+local khaoslib_item = require("__khaoslib__.prototypes.item")
+local khaoslib_technology = require("__khaoslib__.prototypes.technology")
 
 -- Add subgroup to bioprocessing tab if installed
 if mods["bioprocessing-tab"] then
