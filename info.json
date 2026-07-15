@@ -1,20 +1,16 @@
 {
   "name": "FrozenFoodTweaks",
   "title": "Frozen Food Tweaks",
-  "description": "Opinionated tweaks to Frozen Food.",
+  "description": "[DEPRECATED] Functionality migrated to Frozen Food and More.",
   "author": "QuingKhaos",
   "homepage": "https://discord.gg/SYmkaDjFCt",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "factorio_version": "2.0",
   "dependencies": [
     "base >= 2.0.77",
+    "space-age >= 2.0.77",
 
-    "khaoslib >= 1.10.0",
-
-    "FrozenFood >= 1.2.2",
-    "? bioprocessing-tab >= 1.5.0",
-    "? planet-muluna >= 2.2.7",
-    "? vulcanus-sulfuric-bacteria >= 1.2.2"
+    "frozen-food-and-more >= 1.0.0"
   ],
   "spoiling_required": true
 }
