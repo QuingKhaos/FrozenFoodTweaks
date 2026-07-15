@@ -3,4 +3,4 @@
 
 # [DEPRECATED] Frozen Food Tweaks
 
-Functionality migrated to [Spoilage Solution and More](https://mods.factorio.com/mod/spoilage-solution-and-more).
+Functionality migrated to [Frozen Food and More](https://mods.factorio.com/mod/frozen-food-and-more).
